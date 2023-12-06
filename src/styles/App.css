@@ -1,0 +1,49 @@
+/* styles/App.css */
+.style{
+  text-align: center;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add any global styles here */
+/* styles/ForgetPasswordComponent.css */
+
+/* Styles specific to ForgetPasswordComponent */
+h1 {
+  color: #3498db;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 16px;
+}
+/* styles/ResetConfirmationComponent.css */
+
+/* Styles specific to ResetConfirmationComponent */
+h1 {
+  color: #27ae60;
+}
+
+p {
+  margin-top: 16px;
+}
+    

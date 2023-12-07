@@ -1,28 +1,12 @@
- //App.jsx
-
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-
-import ForgetPasswordComponent from './components/ForgetPasswordComponent';
-
-
-import ResetPasswordComponent from './components/ResetPasswordComponent';
-import './styles/App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-
+import ResetPassword from './components/ResetPassword';
+import './styles/App.css'
 const App = () => {
   return (
-    <Router>
-      <div>
-        <Routes>
-         
-          <Route path="/forget-password" Component={ForgetPasswordComponent} />
- 
-          <Route path="/reset-password/:token" Component={ResetPasswordComponent} />
-         
-        </Routes>
-      </div>
-    </Router>
+    <div>
+      <h1 className='h1'>Password Reset App</h1>
+      <ResetPassword />
+    </div>
   );
 };
 
